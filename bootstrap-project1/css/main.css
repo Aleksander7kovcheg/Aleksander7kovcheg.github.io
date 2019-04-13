@@ -1,0 +1,14 @@
+.com {
+  border: 5px solid #2727d5;
+  padding: 47px 20px;
+}
+span {
+  border: 5px solid #2727d5;
+  padding: 47px 20px;
+}
+.bot {
+  border: 5px solid #2727d5;
+  padding: 47px 20px;
+  display: block;
+  font-size: 20px;
+}
