@@ -18,6 +18,19 @@ html{
 	color: @light;
 	text-transform: uppercase;
 	font-size: 1.2rem;
+	transition: all 0.2s;
+	&:hover{
+		cursor: pointer;
+		background-color:darken(@btn-color, 10%);
+	}
+}
+button, input, a{
+	&:focus{
+		outline: none;
+	}
+}
+a:hover{
+	text-decoration: none;
 }
 /* Typograpy */
 section{
@@ -28,6 +41,7 @@ section{
 /* main */
 .main{
 	background: #fff url(../img/fon.jpg) center center no-repeat;
+	    background-position: top;
 	padding: 3rem 0;
 	&-content{
 		margin-top: 10rem;
@@ -39,7 +53,6 @@ section{
 			line-height: 1.45;
 			color: @light;
 			max-width: 550px;
-    		margin: 1em auto;
     		padding: 1em;
     		box-shadow: 0 0 400px rgba(0, 0, 0, 1) inset;
 		}
@@ -112,6 +125,10 @@ span{
 }
 .header{
 	height: 7rem;
+	@media (max-width: 575px){
+		height: 10rem;
+		text-align: center;
+	}
 }
 .phone-link{
 	display: inline-block;
@@ -133,3 +150,11 @@ span{
 .main-title{
 	font-size: 1.5rem;
 }
+@media (max-width: 992px){
+	.main-content h1{
+		font-size: 3rem;
+	}
+	.phone-link{
+		font-size: 2rem;
+	}
+} 
