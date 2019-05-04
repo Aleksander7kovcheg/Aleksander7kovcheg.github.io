@@ -34,7 +34,7 @@ a:hover{
 }
 /* Typograpy */
 section{
-	padding: 10rem 0;
+	padding: 2rem 0;
 }
 
 
@@ -153,6 +153,11 @@ span{
 		font-size: 2rem;
 	}
 }
+@media (max-width: 390px){
+	.main-content h1{
+		font-size: 2rem;
+	}
+}
 button.btn.btn-warning {
     padding: 10px 40px;
     font-size: 12px;
@@ -184,7 +189,7 @@ img.d-block.w-100{
 }
 .section-header{
 	text-align: center;
-	margin: 2rem 0 10rem;
+	margin: 2rem 0 5rem;
 	font-size: 3.6rem;
 }
 .features{
@@ -192,6 +197,11 @@ img.d-block.w-100{
 	text-align: center;
 	p{
 		font-size: 1.5rem;
+		display: inline-block;
+		width: 80%;
+	}
+	h3 {
+    padding: 1.5rem;
 	}
 	}
 	&-img{
@@ -201,4 +211,19 @@ img.d-block.w-100{
 		margin: 0 auto;
 		}
 	}
+	.slick-active{
+		outline: none;
+	}
+.prev{
+	position: absolute;
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border: none;
+	background: url(../img/features/left.png) center no-repeat;
+	background-size: 70%;
+	top: 50%;
+	left: 0;
+	transition: scaleY(-50%);
+}
 }
