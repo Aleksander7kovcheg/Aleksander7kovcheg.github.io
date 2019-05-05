@@ -214,16 +214,23 @@ img.d-block.w-100{
 	.slick-active{
 		outline: none;
 	}
-.prev{
+}
+.arrow{
+	top: 50%;
+	transition: translateY(-50%);
 	position: absolute;
 	z-index: 99;
 	width: 2rem;
 	height: 2rem;
 	border: none;
+}
+.prev{
+	left: 0;
 	background: url(../img/features/left.png) center no-repeat;
 	background-size: 70%;
-	top: 50%;
-	left: 0;
-	transition: scaleY(-50%);
 }
+.next{
+	right: 0;
+	background: url(../img/features/right.png) center no-repeat;
+	background-size: 70%;
 }
