@@ -1,3 +1,3 @@
 
-[Урок 12](https://aleksander7kovcheg.github.io/bootstrap-project1/)Изучение GitHub<br>  
-[Альтернативное отопление](https://aleksander7kovcheg.github.io/project/src/)Адаптивная версия
+[Урок 12](https://alexander7kovcheg.github.io/bootstrap-project1/)Визитка<br>  
+[Альтернативное отопление](https://alexander7kovcheg.github.io/project/src/)Landing
